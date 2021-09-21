@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: gaia-example-develop
+  IMAGE_NAME: ${{ github.repository }}-develop
 
 
 jobs:
