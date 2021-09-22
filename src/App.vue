@@ -1,6 +1,6 @@
 <template>
 <h1>Ejemplo</h1>
-<h2>Por favor Digite su nombre</h2>
+<h2>Por favor, digite su nombre</h2>
 <input type="text" v-model="name" />
 <button v-on:click="sayHello()">Saludar</button>
 </template>
