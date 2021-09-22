@@ -1,16 +1,14 @@
 name: Docker
 on:
    push:
-    branches: [ develop ]
+    branches: [ main ]
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
-
+  IMAGE_NAME: ${{ github.repository }}-data
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
