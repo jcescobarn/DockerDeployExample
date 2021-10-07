@@ -3,6 +3,7 @@
 <h2>Por favor, digite su nombre</h2>
 <input type="text" v-model="name" />
 <button v-on:click="sayHello()">Saludar</button>
+<h1>Hola</1>
 </template>
 
 <script>
